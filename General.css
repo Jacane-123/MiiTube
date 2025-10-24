@@ -3,6 +3,7 @@
 body {
     gap: 0.5rem;
     background-image: url(miiversebackground.png);
+    font-family: sans-serif;
 }
 
 .title{
@@ -10,8 +11,18 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 1.2em;
-    margin-top: 40px;
     font-weight: bold;
+}
+
+.important-notice {
+    background-color: rgba(240, 255, 255, 0.742);
+    border: 2px solid rgb(0, 183, 255);
+    padding: 0 15px;
+    margin-top: 70px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(0, 85, 119);
+    width: fit-content;
 }
 
 /* Navbar */
@@ -25,18 +36,19 @@ body {
     display: flex;
     align-items: center;
 }
-.navbar-right {
-    margin-right: 0;
-    padding-right: 0;
-}
 span {
     background: linear-gradient(to bottom, #e3e3e3, #eeeeee);
     margin: 10px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
-    border: 1px solid rgb(0, 255, 55);
+    border: 1px solid rgb(0, 183, 255);
     padding: 2px;
+    padding: 5px 10px;
+}
+.navbar span a{
+    text-decoration: none;
+    color: rgb(0, 84, 117);
 }
 .manual-link {
     align-items: center;
@@ -44,13 +56,13 @@ span {
     
 
 .SelectedTab {
-    border: 3px solid rgb(0, 255, 55);
+    border: 3px solid rgb(0, 183, 255);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .navbar{
 background-color: rgba(240, 255, 255, 0.742);
-border-bottom: 1px solid rgb(0, 255, 55);
+border-bottom: 1px solid rgb(0, 183, 255);
 box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 width: 100%;
 position: fixed;
@@ -117,14 +129,14 @@ box-sizing: border-box;
     width: fill;
     padding: 5px;
     gap: 10px;
-    border: #00ff40 1px solid;
+    border: rgb(0, 183, 255) 1px solid;
 }
 
 .Mii-Icon {
     border-radius: 7px;
     height: 50px;
     width: 50px;
-    border: #00ff40 1px solid;
+    border: rgb(0, 183, 255) 1px solid;
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
@@ -153,7 +165,7 @@ font-size: 1em;
     width: fit-content;
     padding: 20px;
     border-radius: 7px;
-   border: 1px solid rgb(0, 255, 64);
+    border: 1px solid rgb(0, 183, 255);
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -175,11 +187,11 @@ font-size: 1em;
     font-size: 1.1em;
     color: #333;
     line-height: 1.6;
-    border: 1px solid rgb(0, 255, 64);
+    border: 1px solid rgb(0, 183, 255);
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
     border-radius: 5px;
     padding: 10px;
-    background-color: gradient(to bottom, #15ff0075, #e2ffe48a);
+    background-color: gradient(to bottom, #00b7ff75, #e2ffe48a);
     border-radius: 10px;
 }
 
@@ -190,7 +202,7 @@ font-size: 1em;
     font-size: 1.1em;
     color: #333;
     line-height: 1.6;
-    border: 1px solid rgb(0, 255, 64);
+    border: 1px solid rgb(0, 183, 255);
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
     border-radius: 5px;
 }
