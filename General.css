@@ -3,10 +3,16 @@
 body {
     gap: 0.5rem;
     background-image: url(miiversebackground.png);
+    font-family: sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
 }
 
 .title{
-     display: flex;
+    display: flex;
     align-items: center;
     gap: 10px;
     font-size: 1.2em;
@@ -196,12 +202,11 @@ font-size: 1em;
 }
 
 .secretQRcode {
-width: fill;
-max-width: 750px;
+    width: fill;
+    max-width: 750px;
 }
 
 .secretQRcode {
-width: fill;
-max-width: 750px;
-
+    width: fill;
+    max-width: 750px;
 }
