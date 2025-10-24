@@ -202,12 +202,11 @@ font-size: 1em;
 }
 
 .secretQRcode {
-width: fill;
-max-width: 750px;
+    width: fill;
+    max-width: 750px;
 }
 
 .secretQRcode {
-width: fill;
-max-width: 750px;
-
+    width: fill;
+    max-width: 750px;
 }
