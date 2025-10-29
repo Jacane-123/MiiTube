@@ -16,6 +16,7 @@ body {
 
 /* Navbar */
 .navbar {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,3 +206,5 @@ width: fill;
 max-width: 750px;
 
 }
+
+
