@@ -1,7 +1,6 @@
 /* general */
 
 body {
-    gap: 0.5rem;
     background-image: url(miiversebackground.png);
 }
 
@@ -12,6 +11,15 @@ body {
     font-size: 1.2em;
     margin-top: 40px;
     font-weight: bold;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 /* Navbar */
@@ -200,8 +208,3 @@ width: fill;
 max-width: 750px;
 }
 
-.secretQRcode {
-width: fill;
-max-width: 750px;
-
-}
